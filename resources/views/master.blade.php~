@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ URL::asset('Css/Master.css') }}"/>
+    <title>Wudufuk</title>
+    @yield('head')
+  </head>
+  <body>
+    <header>
+      <div>
+	<h2>WuDufuk</h2>
+      </div>
+      <div>
+	@yield('header')
+      </div>
+    </header>
+    <div id="FirstDiv">
+      <p id="FirstP">
+	@yield('content')
+      </p>
+    </div>
+    <div id="Insert">@yield('NewText')</div>
+    <div id="SecondDiv">
+      <p id="SecondP"></p>
+    </div>
+    <footer>@yield('footer')</footer>
+  </body>
+</html>

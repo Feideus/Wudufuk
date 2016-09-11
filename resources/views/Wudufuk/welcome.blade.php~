@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wudufuk</title>
+        <link href="{{ URL::asset('Css/Master.css') }}" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+        <div class="Titles">
+	  <p>Bienvunue sur Wudufuk !</p>
+	</div>
+      </header>
+    </body>
+</html>

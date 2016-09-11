@@ -1,0 +1,20 @@
+
+/*classes*/
+.content
+{
+    height:50%;
+    position:relative;
+    left:7%;
+    width:55%;
+    border:2px solid black;
+}
+
+.chatbox
+{
+    position:relative;
+    border: 2px solid red;
+    width: 28%;
+    left: 63%;
+    height:50%;
+    bottom: calc(50% + 4px);
+}

@@ -1,0 +1,43 @@
+/*simples*/
+
+html{height:100%;position:relative; }
+body{height:100%;position:relative; }
+
+footer{position:relative; left:43%; top:90%; border:2px solid #E4F1F5; width:57%; border-radius: 5px; color: #244731; padding: 0px;}
+p
+{padding:0px;}
+
+/*rules*/
+
+@font-face {
+    font-family:montserrat;
+    src: url(/css/fonts/MontserratRegular.woff);
+}
+
+/*classes*/
+.Titles
+{
+    margin:auto;
+    font-family: "montserrat";
+    background-color: #D0EEF2;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 200%;
+    width:100%;
+}
+
+.hiddenButton
+{
+    border : 0px solid #D0EEF2;
+    height:40px;
+    position:absolute;
+    background-color: #D0EEF2;
+    color: #D0EEF2;
+    border-radius:0px;
+    top:0%;
+    padding:2px;
+    left:93%;
+}
+.hiddenButton:hover{background-color: #FAC3CC; color: black;}
+
