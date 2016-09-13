@@ -1,8 +1,8 @@
 /*simples*/
 
-html{height:100%;position:relative; }
+html{height:100%;position:relative; font-family: "montserrat"; }
 body{height:100%;position:relative; }
-
+div{border-radius: 5px;}
 footer{position:relative; left:43%; top:15%; border:2px solid #E4F1F5; width:57%; border-radius: 5px; color: #244731; padding: 0px;}
 p
 {padding:0px;}

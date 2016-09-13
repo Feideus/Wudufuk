@@ -17,11 +17,10 @@
       </div>
     </header>
     <div class="content">
-      <p id="FirstP">
 	@yield('content')
       </p>
     </div>
-    <div class="chatbox">@yield('chatbox')</div>
+   @yield('chatbox')
     <div id="SecondDiv">
       <p id="SecondP"></p>
     </div>

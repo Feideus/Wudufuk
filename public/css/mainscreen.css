@@ -1,10 +1,14 @@
-
-/*classes*/
+p
+{
+    text-align:center;
+}
+/*CLASSES*/
 .content
 {
-    height:50%;
+    padding:10px;
+    height:80%;
     position:relative;
-    left:7%;
+    left:5%;
     width:55%;
     border:2px solid black;
 }
@@ -14,7 +18,20 @@
     position:relative;
     border: 2px solid red;
     width: 28%;
-    left: 63%;
-    height:50%;
-    bottom: calc(50% + 4px);
+    left: 66%;
+    height:80%;
+    bottom: calc(80% + 20px);
 }
+
+/*IDs*/
+
+/*divs*/
+#ongletPhoto{width:20%; background-color:#FABBC6;height: 25px;color:black;}
+#ongletGif{position:relative; left: 20.5%; bottom: 6.5%; width: 20%; background-color:#FABBC6;height: 25px;color:black;}
+#ongletVideo{position:relative; left: 41%; bottom: 13%; width: 20%; background-color:#FABBC6;height: 25px;color:black;}
+#divBouton{position:relative;width:20%;left:75%; bottom: 5%}
+
+/*buttons*/
+#leBouton{position:relative;width:100%;font-family: "montserrat";background-color:#D0EEF2;color:black;border-radius: 5px;}
+#leBouton:hover{background-color:black;color:#D0EEF2;}
+

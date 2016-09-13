@@ -13,4 +13,6 @@
 
 Route::get('/', 'welcomeController@index');
 
+Route::post('/connection', 'welcomeController@connectionCheck');
+
 Route::get('/mainscreen', 'mainscreenController@index');

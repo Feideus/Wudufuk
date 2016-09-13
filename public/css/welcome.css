@@ -13,9 +13,14 @@ p
     font-family:montserrat;
     src: url(/css/fonts/MontserratRegular.woff);
 }
-
+/*IDs*/
+#connectionForm
+{
+    text-align:center;
+    opacity:0;
+}
 /*classes*/
-.Titles
+.titles
 {
     margin:auto;
     font-family: "montserrat";
